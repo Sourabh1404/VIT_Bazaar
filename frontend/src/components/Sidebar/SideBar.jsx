@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const SideBar = () => {
   return (
-    <div className='fixed top-0 left-0 w-20 h-screen m-0 flex flex-col bg-gray-950 text-white shadow-lg'>
+    <div className='fixed top-0 left-0 w-14 h-screen m-0 flex flex-col bg-gray-950 text-white shadow-lg'>
     <SideBarIcon icon={<RiHome7Line size="30" />} text="Home 💡"></SideBarIcon>
     <SideBarIcon icon={<FaShopify size="30" />} text="Shop 💡"></SideBarIcon>
      <SideBarIcon icon={<IoIosAddCircle  size="30" />} text="Add Item 💡" ></SideBarIcon>
